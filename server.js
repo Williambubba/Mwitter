@@ -8,4 +8,4 @@ app.use(express.static(path.join(__dirname, './client/dist/client')))
 require('./server/config/modelLoader')
 require('./server/config/routes')(app)
 
-app.listen(8000)
+app.listen(8080);
